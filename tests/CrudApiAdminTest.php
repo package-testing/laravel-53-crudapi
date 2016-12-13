@@ -17,7 +17,6 @@ class CrudApiAdminTest extends TestCase
         $user = User::where('email', 'testadmin@example.com')->first();
 
         $this->actingAs($user)
-            ->withSession(['test' => true])
             ->visit('admin/Role')
             ->see('Roles')
             ->see('Name')
