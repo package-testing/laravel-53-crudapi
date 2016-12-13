@@ -1,0 +1,13 @@
+language: php
+php:
+  - "5.6"
+  - "7.0"
+  - "7.1"
+
+install:
+  - composer install
+  - composer dumpautoload
+  - mv .env.example .env
+  - php artisan key:generate
+
+script: phpunit --coverage-text
