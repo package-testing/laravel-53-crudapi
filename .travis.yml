@@ -14,7 +14,7 @@ before_install:
 install:
   - composer install
   - composer dumpautoload
-  - mv .env.example .env
+  - cp .env.travis .env
   - php artisan key:generate
 
 script: phpunit --coverage-text
