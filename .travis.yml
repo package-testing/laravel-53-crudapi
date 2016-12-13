@@ -16,5 +16,9 @@ install:
   - composer dumpautoload
   - cp .env.travis .env
   - php artisan key:generate
+  - php artisan migrate
+  - php artisan db:seed
+  - php artisan user:role --email=testadmin@example.com --role=Administrator
+  
 
 script: phpunit --coverage-text
