@@ -62,7 +62,7 @@ class AddUserRole extends Command
             $this->line("Unable to add user to role");
         }
         /* Get list of roles */
-        $this->line("User {$user->forename} {$user->surname} added to {$role->name} role.");
+        $this->line("User {$user->name} added to {$role->name} role.");
     }
 
     public function buildUserTable($users)
