@@ -1878,16 +1878,16 @@
         },
         {
             "name": "taskforcedev/laravel-support",
-            "version": "v1.0.17",
+            "version": "v1.0.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/taskforcedev/laravel-support.git",
-                "reference": "d1f3b414c48d2457ff3eea66af55c2beffce10de"
+                "reference": "3c092c646f13c3fa265dd71f53292f2fa4dfcb6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/taskforcedev/laravel-support/zipball/d1f3b414c48d2457ff3eea66af55c2beffce10de",
-                "reference": "d1f3b414c48d2457ff3eea66af55c2beffce10de",
+                "url": "https://api.github.com/repos/taskforcedev/laravel-support/zipball/3c092c646f13c3fa265dd71f53292f2fa4dfcb6a",
+                "reference": "3c092c646f13c3fa265dd71f53292f2fa4dfcb6a",
                 "shasum": ""
             },
             "require": {
@@ -1915,7 +1915,7 @@
                 "laravel",
                 "support"
             ],
-            "time": "2017-01-20 12:28:45"
+            "time": "2017-03-20 14:43:50"
         },
         {
             "name": "vlucas/phpdotenv",
