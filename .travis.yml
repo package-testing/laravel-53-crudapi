@@ -19,4 +19,4 @@ install:
   - php artisan db:seed
   - php artisan user:role --email=testadmin@example.com --role=Administrator
 
-script: phpunit --coverage-text
+script: ./vendor/bin/phpunit --coverage-text
