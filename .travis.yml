@@ -10,7 +10,6 @@ services:
 before_install:
  - mysql -e 'CREATE DATABASE crudapi_test;'
 
-
 install:
   - composer install
   - composer dumpautoload
@@ -19,6 +18,5 @@ install:
   - php artisan migrate
   - php artisan db:seed
   - php artisan user:role --email=testadmin@example.com --role=Administrator
-  
 
 script: phpunit --coverage-text
